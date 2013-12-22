@@ -1,5 +1,4 @@
-.metadata/*
-TomasuloSimulator/bin/*
-TomasuloSimulator/.classpath
-TomasuloSimulator/.project
-TomasuloSimulator/.settings/*
+.metadata
+.DS_Store
+/bin/*
+/.settings/*
