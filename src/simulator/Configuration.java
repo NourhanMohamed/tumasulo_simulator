@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 class Configuration {
-	byte cacheLevels;
-	int memAccessCycles, instBufferSize, robSize;
-	CacheConfiguration[] cc = new CacheConfiguration[3];
-	HashMap<String, Integer[]> rs = new HashMap<String, Integer[]>();
+	static byte cacheLevels;
+	static int memAccessCycles, instBufferSize, robSize;
+	static CacheConfiguration[] cc = new CacheConfiguration[3];
+	static HashMap<String, Integer[]> rs = new HashMap<String, Integer[]>();
 	public static final int MEMORY_CAPACITY = 65536;
 	public static final String[] UNITS = { "Adder/Subtractor", "Multipliers",
 			"Load/Store Buffers", "Logical Operations" };
